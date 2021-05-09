@@ -15,7 +15,7 @@ args = parser.parse_args()
 template_ip = args.ip
 
 # Globals
-baseurl = 'https://' + template_ip + ':443' # Connecting to vfw instance API
+baseurl = 'https://' + template_ip + ':443' # Connecting to vyos instance API
 retr_path = "/retrieve"
 config_path = "/configure"
 save_path = "/config-file"
